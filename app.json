@@ -1,7 +1,7 @@
 {
   "name": "NEXUS-XMD",
-  "description": "Javascript WhatsApp bot made by Pkdriller01",
-  "logo": "https://files.catbox.moe/eqf8b0.jpg",
+  "description": "Javascript WhatsApp bot made by Pkdriller",
+  "logo": "https://files.catbox.moe/z62ts0.jpg",
   "keywords": ["NEXUS-XMD"],
   "success_url": "/",
 
@@ -31,19 +31,20 @@
       "value": "public"
       
     },
-
-     "ANTI_DELETE": {
-      "description": "set true for show deleted messages.",
-      "required": false,
-      "value": "true"  
-    },
+    
     
     "ALWAYS_ONLINE": {
       "description": "Make it true if want always online.",
       "required": false,
       "value": "false"  
     },    
-   
+  
+    "AUTO_VOICE": {
+      "description": "Make it true if want automatic voice reply .",
+      "required": false,
+      "value": "false"
+    }, 
+
     "AUTO_REPLY": {
       "description": "Make it true if you want automatic reply.",
       "required": false,
@@ -78,20 +79,20 @@
     "AUTO_STATUS_MSG": {
       "description": "Type custom message on status reply",
       "required": true,
-      "value": "*SEEN YOUR STATUS BY NEXUS-XMD 💜*"
+      "value": "*SEEN YOUR STATUS BY NEXUS-XMD 🖤*"
    
      }, 
     
     "OWNER_NAME": {
       "description": "Type Bot Owner Name.",
       "required": false,
-      "value": "Pk Driller"
+      "value": "Pkdriller"
 }, 
 
     "OWNER_NUMBER": {
       "description": "put the owner number for bot.",
       "required": false,
-      "value": "2547854XXXX"
+      "value": "254794146821"
 
     }, 
 
@@ -131,13 +132,13 @@
     "MENU_IMAGE_URL": {
       "description": "add url for mention reply and menu if want.",
       "required": false,
-      "value": "https://files.catbox.moe/eqf8b0.jpg"
+      "value": "https://files.catbox.moe/z62ts0.jpg"
     },
     
      "DESCRIPTION": {
       "description": "add caption for menu and other",
       "required": false,
-      "value": "*© ᴘᴏᴡᴇʀᴇᴅ ʙʏ Pk Driller*"
+      "value": "*© ᴘᴏᴡᴇʀᴇᴅ ʙʏ Pkdriller*"
     },
 
       "DELETE_LINKS": {
@@ -178,9 +179,9 @@
     }, 
     
     "ANTI_DEL_PATH": {
-      "description": "change it to -same- if you want to resend deleted message in same chat othwise inbox",
+      "description": "change it to -same- if you want to resend deleted message in same chat",
       "required": false,
-      "value": "inbox"
+      "value": "log"
     }, 
 
     "ADMIN_EVENTS": {

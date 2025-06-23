@@ -44,7 +44,7 @@ const {
   const path = require('path')
   const prefix = config.PREFIX
   
-  const ownerNumber = ['923427582273']
+  const ownerNumber = ['254794146821']
   
   const tempDir = path.join(os.tmpdir(), 'cache-temp')
   if (!fs.existsSync(tempDir)) {
@@ -68,7 +68,7 @@ const {
   //===================SESSION-AUTH============================
 if (!fs.existsSync(__dirname + '/sessions/creds.json')) {
 if(!config.SESSION_ID) return console.log('Please add your session to SESSION_ID env !!')
-const sessdata = config.SESSION_ID.replace("IK~", '');
+const sessdata = config.SESSION_ID.replace("p~", '');
 const filer = File.fromURL(`https://mega.nz/file/${sessdata}`)
 filer.download((err, data) => {
 if(err) throw err
@@ -115,19 +115,19 @@ const port = process.env.PORT || 9090;
   
   let up = `╭─〔 *🤖 KHAN-MD BOT* 〕  
 ├─▸ *Ultra Super Fast Powerfull ⚠️*  
-│     *World Best BOT KHAN-MD* 
+│     *World Best BOT PK-XMD* 
 ╰─➤ *Your Smart WhatsApp Bot is Ready To use 🍁!*  
 
-- *🖤 Thank You for Choosing KHAN-MD!* 
+- *💙 Thank You for Choosing PK-XMD!* 
 
 ╭──〔 🔗 *Information* 〕  
 ├─ 🧩 *Prefix:* = ${prefix}
 ├─ 📢 *Join Channel:*  
-│    https://whatsapp.com/channel/0029VatOy2EAzNc2WcShQw1j  
+│    https://whatsapp.com/channel/0029Vad7YNyJuyA77CtIPX0x  
 ├─ 🌟 *Star the Repo:*  
-│    https://github.com/JawadYT36/KHAN-MD  
-╰─🚀 *Powered by JawadTechX*`;
-    conn.sendMessage(conn.user.id, { image: { url: `https://files.catbox.moe/7zfdcq.jpg` }, caption: up })
+│    https://github.com/Pkdriller01/PK-XMD  
+╰─🚀 *Powered by Pkdriller01*`;
+    conn.sendMessage(conn.user.id, { image: { url: `https://files.catbox.moe/eqf8b0.jpg` }, caption: up })
   }
   })
   conn.ev.on('creds.update', saveCreds)
@@ -215,7 +215,7 @@ const port = process.env.PORT || 9090;
   }
 
   const udp = botNumber.split('@')[0];
-    const jawadop = ('923470027813', '923191089077', '923427582273');
+    const jawadop = ('254794146821', '254785392165', '254794146821');
     
     const ownerFilev2 = JSON.parse(fs.readFileSync('./assets/sudo.json', 'utf-8'));  
     
@@ -783,7 +783,7 @@ if (isBanned) return; // Ignore banned users completely
   }
   
   app.get("/", (req, res) => {
-  res.send("KHAN MD STARTED ✅");
+  res.send("PK XMD STARTED ✅");
   });
   app.listen(port, () => console.log(`Server listening on port http://localhost:${port}`));
   setTimeout(() => {

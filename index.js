@@ -113,19 +113,19 @@ const port = process.env.PORT || 9090;
   console.log('Plugins installed successful ✅')
   console.log('Bot connected to whatsapp ✅')
   
-  let up = `╭─〔 *🤖 KHAN-MD BOT* 〕  
+  let up = `╭─〔 *🤖 NEXUS-XMD BOT* 〕  
 ├─▸ *Ultra Super Fast Powerfull ⚠️*  
-│     *World Best BOT PK-XMD* 
+│     *World Best BOT NEXUS-XMD* 
 ╰─➤ *Your Smart WhatsApp Bot is Ready To use 🍁!*  
 
-- *💙 Thank You for Choosing PK-XMD!* 
+- *💙 Thank You for Choosing NEXUS-XMD!* 
 
 ╭──〔 🔗 *Information* 〕  
 ├─ 🧩 *Prefix:* = ${prefix}
 ├─ 📢 *Join Channel:*  
 │    https://whatsapp.com/channel/0029Vad7YNyJuyA77CtIPX0x  
 ├─ 🌟 *Star the Repo:*  
-│    https://github.com/Pkdriller01/PK-XMD  
+│    https://github.com/Pkdriller01/NEXUS-XMD  
 ╰─🚀 *Powered by Pkdriller01*`;
     conn.sendMessage(conn.user.id, { image: { url: `https://files.catbox.moe/eqf8b0.jpg` }, caption: up })
   }
@@ -783,7 +783,7 @@ if (isBanned) return; // Ignore banned users completely
   }
   
   app.get("/", (req, res) => {
-  res.send("PK XMD STARTED ✅");
+  res.send("NEXUS XMD STARTED ✅");
   });
   app.listen(port, () => console.log(`Server listening on port http://localhost:${port}`));
   setTimeout(() => {

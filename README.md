@@ -16,7 +16,7 @@
 
 <p align='center'>
 
- <a href="https://github.com/pkdriller/NEXUS-XMD/fork"><img title="PK-XMD" src="https://img.shields.io/badge/FORK-NEXUS XMD V1-h?color=008000&style=for-the-badge&logo=github"></a>
+ <a href="https://github.com/pkdriller01/PK-XMD/fork"><img title="PK-XMD" src="https://img.shields.io/badge/FORK-PK XMD V1-h?color=008000&style=for-the-badge&logo=github"></a>
  
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&color=blue&lines=■+■+■+■+■+ℙ𝕃𝔼𝔸𝕊𝔼+𝔽𝕆ℝ𝕂+𝕋ℍ𝔼+ℝ𝔼ℙ𝕆)](https://git.io/typing-svg)

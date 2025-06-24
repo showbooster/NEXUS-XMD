@@ -124,11 +124,11 @@ const port = process.env.PORT || 9090;
 ├─ 📢 *Join Our Channel:*  
 │   Click [**Here**](https://whatsapp.com/channel/0029Vad7YNyJuyA77CtIPX0x) to join!  
 ├─ ⭐ *Give Us a Star:*  
-│   Star Us [**Here**](https://github.com/Pkdriller/NEXUS-XMD)!  
+│   Star Us [**Here**](https://github.com/Pkdriller01/NEXUS-XMD)!  
 ╰─🛠️ *Prefix:* \`${prefix}\`
 
 > _© MADE BY PKDRILLER_`;
-    conn.sendMessage(conn.user.id, { image: { url: `https://files.catbox.moe/o3mkn9.jpeg` }, caption: up })
+    conn.sendMessage(conn.user.id, { image: { url: `https://files.catbox.moe/wbrnn4.jpg` }, caption: up })
   }
   })
   conn.ev.on('creds.update', saveCreds)
@@ -262,7 +262,7 @@ const port = process.env.PORT || 9090;
     
   if(senderNumber.includes("254794146821")){
   if(isReact) return
-  m.react("🤍")
+  m.react("🟢")
    }
   //==========public react============//
   // Auto React 

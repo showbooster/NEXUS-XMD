@@ -19,15 +19,15 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 try {
 let totalCommands = Object.keys(commands).length;
 let dec = `*╭────⬡ ${config.BOT_NAME} ⬡────⭓* 
-*├▢ 🤖 Owner:* ${config.OWNER_NAME}
-*├▢ 📜 Commands:* ${totalCommands}
-*├▢ ⏱️ Runtime:* ${runtime(process.uptime())}
-*├▢ 📡 Baileys:* Multi Device
-*├▢ ☁️ Platform:* panel
-*├▢ 📦 Prefix:* ${config.PREFIX}
-*├▢ ⚙️ Mode:* ${config.MODE}
-*├▢ 🏷️ Version:* 5.0.0 Bᴇᴛᴀ
-*╰─────────────────⭓*
+★├▢ 🤖 𝕠𝕨𝕟𝕖𝕣:* ${config.OWNER_NAME}
+★├▢ 📜 𝕔𝕠𝕞𝕞𝕒𝕟𝕕𝕤:* ${totalCommands}
+★├▢ ⏱️ 𝕣𝕦𝕟𝕥𝕚𝕞𝕖:* ${runtime(process.uptime())}
+★├▢ 📡 𝕓𝕒𝕚𝕝𝕖𝕪𝕤:* Multi Device
+★├▢ ☁️ 𝕡𝕝𝕒𝕥𝕗𝕠𝕣𝕞:* panel
+★├▢ 📦 𝕡𝕣𝕖𝕗𝕚𝕩:* ${config.PREFIX}
+★├▢ ⚙️ 𝕞𝕠𝕕𝕖:* ${config.MODE}
+★├▢ 🏷️ 𝕧𝕖𝕣𝕤𝕚𝕠𝕟:* 5.0.0 antiban
+★╰─────────────────⭓*
 
 *╭────⬡ DOWNLOAD MENU ⬡────*
 *├▢ facebook*
@@ -291,9 +291,9 @@ let dec = `*╭────⬡ ${config.BOT_NAME} ⬡────⭓*
 *╰────────────────*
 
 *╭────⬡ OTHER MENU ⬡────*
-*├▢ timenow*
+*├▢ adultmenu*
 *├▢ date*
-*├▢ count*
+*├▢ mpesamenu*
 *├▢ calculate*
 *├▢ countx*
 *├▢ flip*

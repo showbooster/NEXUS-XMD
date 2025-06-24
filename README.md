@@ -28,7 +28,7 @@
 
 ### 💙 PAIRING SITE GE YOUR SESSION 🟢
 
-[![Pair Code](https://img.shields.io/badge/Google-Pair%20Code-blue?style=for-the-badge&logo=Google)](https://nexus-ai-website-theta.vercel.app/)
+[![Pair Code](https://img.shields.io/badge/Google-Pair%20Code-blue?style=for-the-badge&logo=Google)](nexus-xmd-pairing-site.onrender.com/)
 
 
 
